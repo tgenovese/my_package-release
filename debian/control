@@ -1,0 +1,12 @@
+Source: ros-humble-my-package
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <logans@cottsay.net>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-my-package
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-workspace
+Description: A simple test package
